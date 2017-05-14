@@ -27,8 +27,8 @@
         "user": null
     },
     "images": {
-        "background": null,
-        "playback": null,
+        "background": "http://i.imgur.com/nlYhQSs.jpg",
+        "playback": "http://i.imgur.com/GN9xPeH.png"
         "admin": null,
         "ambassador": null,
         "host": null,
