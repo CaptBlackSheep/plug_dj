@@ -2,7 +2,7 @@
     "room": "BlackSheepClub",
     "author": "CaptBlackSheep",
     "icon": null,
-    "css": "https://cdn.rawgit.com/Franta72/HJVpozadi/master/style.css",
+    "css": null,
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
