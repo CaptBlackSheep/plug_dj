@@ -29,17 +29,6 @@
     "images": {
         "background": "http://i.imgur.com/nlYhQSs.jpg",
         "playback": "http://i.imgur.com/GN9xPeH.png"
-        /*
-        "admin": null,
-        "ambassador": null,
-        "host": null,
-        "cohost": null,
-        "manager": null,
-        "bouncer": null,
-        "rdj": null,
-        "subscriber": null,
-        "silversubscriber": null
-        */
     },
     "emotes": {
     	"emote_name": null
