@@ -2,7 +2,7 @@
     "room": "BlackSheepClub",
     "author": "CaptBlackSheep",
     "icon": null,
-    "css": "https://rawgit.com/themescript/themescript.github.io/master/themes/dungeon/theme.css",
+    "css": "https://rawgit.com/themescript/themescript.github.io/master/themes/cmix/theme.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
