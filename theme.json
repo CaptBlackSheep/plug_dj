@@ -2,7 +2,7 @@
     "room": "BlackSheepClub",
     "author": "CaptBlackSheep",
     "icon": null,
-    "css": null,
+    "css": "https://rawgit.com/Vidie54/CSS-WTLS/master/style.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
