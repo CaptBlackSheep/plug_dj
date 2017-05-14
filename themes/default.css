@@ -1,0 +1,495 @@
+/* This is the default theme for themescript, adding in various enhancements
+   to make plug.dj look better in certain ways. This is stiil a WIP, and may
+   probably be updated later with additional features.
+   
+   There is a fair bit of dead code that is yet to be either cleaned up
+   or implemented. Apologies for including it, will be tidied up later.
+*/
+
+/* Imports
+   > Add in external CSS files below. Custom badges are included as an example.
+*/
+
+
+
+/* Animations */
+  /* > Defined animations here can be used with the animation declaration.
+       To keep things tidy, all additional animations defined above should
+       be under the "Opacity and effecrs" section below.
+     > Only define a new animation when a transition effect doesn't work, or
+       when it is easier than per-class transitions.
+  */
+@keyframes fadein{
+  from{
+    opacity: 0;
+}
+  to{
+    opacity: 1;
+}
+
+}
+
+/* Opacity and effects */
+  /* > Not including background colour opacity; Declarations for semi-opaque
+       background and text colours should be under their respective colour, or
+       given a new heading for each additional colour.
+     > scattered and uncategorizable declarations should also reside here
+       to keep things tidy.
+  */
+#room-bar:hover > #room-name,
+#room-bar > #room-host,
+#room-bar:hover .icon-room:before,
+#room-bar .icon-room:after,
+#playback:not(:hover) > #playback-controls,
+.user-content .avatars .grid .cell:not(.selected) .top:after,
+.user-content .badges .grid .cell:not(:hover) .top:after,
+.user-content .misc .grid .cell:not(:hover) .top:after,
+#footer .store:not(:hover):before,
+#footer-user .info:not(.showing){
+  opacity: 0 !important;
+  transition: opacity 0.2s !Important;
+}
+.user-content .avatars .grid .cell .top:before{
+  opacity: 0.75 !Important;
+  transition: opacity 0.2s !important;
+}
+#room-bar > #room-name,
+#room-bar:hover > #room-host,
+#room-bar .icon-room:before,
+#room-bar:hover .icon-room:after,
+#playback:hover > #playback-controls,
+.user-content .avatars .grid .cell:hover .top:before,
+.user-content .avatars .grid .cell.selected .top:after,
+.user-content .badges .grid .cell:hover .top:after,
+.user-content .misc .grid .cell:hover .top:after,
+#footer .store:hover:before,
+#footer-user .info.showing{
+  opacity: 1 !Important;
+  transition: opacity 0.2s !Important;
+}
+#room-bar > #room-name,
+#room-bar:hover > #room-host,
+#room-bar .icon-room:before,
+#room-bar:hover .icon-room:after
+{
+  transition-delay: 0.2s !Important;
+}
+.tab-menu:hover,
+.tab-menu:not(:hover),
+.tab-menu .selected,
+.tab-menu :not(.selected),
+.row,
+#vote i,
+#vote .bottom,
+button:hover,
+button:not(:hover),
+#footer-user .button{
+  transition: background-color 0.2s !Important;
+}
+  /* Fading elapsing timer */
+#now-playing-time .elapsing{
+  opacity: 0.0 !Important;
+  transition: opacity 5.0s !Important;
+}
+  /* Icons */
+    /* App and user menus */
+#app-menu .item:not(:hover){
+  opacity: 0.7 !Important;
+}
+    /* Socmed */
+#facebook-menu .icon.icon-facebook-selected,
+#twitter-menu .icon.icon-twitter-selected,
+.shop-button .icon.icon-store-white{
+  opacity: 0.30 !Important;
+}     /* Hover opacity */
+#facebook-menu:hover .icon.icon-facebook-selected,
+#twitter-menu:hover .icon.icon-twitter-selected,
+.shop-button:hover .icon.icon-store-white,
+  /* Chat disconnect */
+#chat .disconnect{
+  opacity: 1 !Important;
+}
+  /* Fade-in chat messages */
+#chat-messages .cm{
+  animation: fadein 0.2s;
+}
+  /* Fading user info prereq */
+#footer-user .info{
+  display: block !Important;
+  pointer-events: none !important;
+}
+
+/* Text settings */
+  /* Formatting */
+#room-bar *,
+#now-playing-bar *{
+  font-weight: lighter !Important;
+}
+.friends .header{
+  font-style: italic !Important;
+}
+  /* Sizing */
+    /* DJ history */
+#history-panel .name,
+#history-panel .timestamp,
+#user-history .name,
+#user-history .timestamp{
+	font-size: 17px !Important;
+}
+    /* Header */
+#room-bar span{
+  font-size: 20px !Important;
+}
+#now-playing-time span,
+#volume span{
+  font-size: 18px !Important;
+}
+    /* Footer */
+#your-active-playlist{
+  font-size: 12px !Important;
+}
+    /* Text colour */
+#room-host,
+#now-playing-dj,
+#your-active-playlist{
+  color: rgb(85, 93, 112) !important;
+}
+/* Background colours */
+#vote:before{
+  background-color: rgb(0, 0, 0) !important;
+}
+#vote .crowd-response,
+#vote .crowd-response .bottom{
+  background-color: rgb(40, 44, 53) !important;
+}
+#vote .crowd-response:not(.selected):hover .bottom{
+  background-color: rgb(28, 31, 37) !important;
+}
+#vote > #woot.crowd-response.selected .bottom,
+#vote > #woot.active .icon,
+#vote > #woot.disabled.active .bottom{
+  background-color: rgb(144, 173, 47) !important;
+}
+
+#vote > #grab.crowd-response.selected .bottom,
+#vote > #grab.active .icon,
+#vote > #grab.disabled.active .bottom{
+  background-color: rgb(170, 116, 255) !important;
+}
+
+#vote > #meh.crowd-response.selected .bottom,
+#vote > #meh.active .icon,
+#vote > #meh.disabled.active .bottom{
+  background-color: rgb(196, 46, 59) !important;
+}
+#vote i:not(.icon-skip){
+  background-color: rgb(238, 238, 238) !important;
+}
+/* Background images and positioning */
+#vote i:not(.icon-skip){
+  background-image: url(http://i.imgur.com/7EqsYKk.png) !important;
+  background-size: 60px 90px !important;
+}
+
+.icon.icon-history-positive{
+  background-position: -218px -288px !important;
+}
+.icon.icon-history-grabs{
+  background-position: -148px -288px !important;
+}
+.icon.icon-history-negative{
+  background-position: -183px -288px !important;
+}
+#vote > #woot i,
+#vote > #meh i{
+  background-position: 0px -60px !Important;
+}
+
+#vote > #grab i{
+  background-position: -30px -60px !Important;
+}
+
+#vote > #woot i{
+  transform: scaley(-1) !important;
+}
+
+/* Miscellaneous settings */
+  /* Shadows */
+    /* Menu differentiation */
+#user-view,
+#room-settings{
+  box-shadow: inset -30px 30px 30px -30px rgb(0, 0, 0) !Important;
+}
+  /* Right-side stuff */
+    /* Header buttons */
+.header-panel-button:not(.selected){
+  box-shadow: inset 0px -15px 15px -15px rgb(0, 0, 0) !Important;
+}
+.dialog-body{
+  box-shadow: inset 0px 15px 15px -15px rgb(0, 0, 0),
+               inset 0px -15px 15px -15px rgb(0, 0, 0) !Important;
+}
+    /* Generated by pseudochildren */
+      /* Shop / Inventory */
+#footer .store:before{
+  content: '' !important;
+  width: 68px !Important;
+  height: 53px !important;
+  position: absolute !important;
+  left: 1px !important;
+  background-image: linear-gradient(#00B5E6 0px, #009CDD 100%);
+}
+.user-content .grid .cell .top:before,
+.user-content .grid .cell .top:after{
+  content: '' !Important;
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !Important;
+  top: 0px !Important;
+  left: 0px !Important;
+}
+.user-content .grid .cell .top img,
+.user-content .grid .cell .top i,
+.user-content .grid .cell .top .level{
+  z-index: 1 !Important;
+}
+      /* Right side */
+        /* Shadow General settings */
+#chat:before,
+.app-right .list:before{
+  pointer-events: none !Important;
+  z-index: 1 !Important;
+  content: '' !important;
+  position: absolute !Important;
+}       /* Chat output */
+#chat:before{
+  top: 46px !important;
+  height: calc(100% - 97px) !Important;
+  width: calc(100% + 30px) !Important;
+  box-shadow: inset 0px 15px 15px -15px rgb(0, 0, 0),
+              inset 0px -15px 15px -15px rgb(0, 0, 0) !Important;
+}       /* Lists */
+.app-right .list:before{
+  left: -15px !Important;
+  width: calc(100% + 30px) !Important;
+  height: 100% !Important;
+  box-shadow: inset 0px 0px 15px 0px rgb(0, 0, 0) !Important;
+}
+
+#p3-settings .container,
+#p3-settings-custom-colors .container,
+.pop-menu:not(.up) .menu{
+  box-shadow: inset 0px 15px 15px -15px rgb(0, 0, 0) !important;
+}
+.pop-menu.up .menu{
+  box-shadow: inset 0px -15px 15px -15px rgb(0, 0, 0) !important;
+}    /* Video playback, dialogs, user info, app stuff, buttons */
+#dialog-container .dialog,
+#dj-button,
+:not(.video-only) > #vote:before,
+#user-rollover,
+#p3-settings,
+#p3-settings-custom-colors,
+#app-menu.open{
+  box-shadow: 0px 0px 30px 10px rgb(0, 0, 0) !important;
+}
+#toast-notifications .notification,
+.drag-media-box,
+div.pop-menu{
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0) !important;
+}
+#app{
+  box-shadow: inset -345px 30px 50px rgb(0, 0, 0) !Important;
+}
+    /* Focused boxes / buttons */
+.general-settings .input-background,
+#the-user-profile .blurb input,
+#history-button.selected{
+  box-shadow: inset 0px 0px 15px 0px rgb(0, 0, 0) !important;
+}     /* Animated box shadows; Default state */
+#chat-input:not(.focused),
+.search:not(.focused),
+#search-bar:not(.focused),
+#filter-bar:not(.focused),
+.list-header .input-background:not(.focused),
+#user-inventory .badges .cell{
+  box-shadow: none;
+  transition: box-shadow 0.2s !Important;
+}     /* Animated box shadows; Active state */
+#chat-input.focused,
+.search.focused,
+#search-bar.focused,
+#filter-bar.focused,
+.list-header .input-background.focused,
+#user-inventory .badges .cell:hover,
+#user-inventory .badges .cell.selected{
+  box-shadow: inset 0px 0px 15px 0px rgb(0, 0, 0) !important;
+  transition: 0.2s !Important;
+}   /* Used for colour / overlap */
+.friends .header{
+  box-shadow: inset 0px 0px 0px 24px rgba(0, 0, 0, 0.50) !Important;
+}   /* Used as border */
+#footer .inventory{
+  box-shadow: inset rgb(10, 10, 10) 1px 0px 0px 0px !Important;
+}
+#chat-suggestion{
+  box-shadow: 0px 1px 0px 0px rgb(50, 60, 83) !Important;
+}
+  /* Extra history panel text */
+#history-panel .name:before{
+  content: "By " !important;
+}
+  /* Change width of now playing */
+#now-playing-bar > #now-playing-media{
+  width: calc(100% - 274px) !Important;
+}
+  /* Always show volume slider and playback controls */
+#volume .slider,
+#playback-controls{
+  display: block !Important;
+}
+  /* Room bar badge settings */
+#room-bar .icon-room:before,
+#room-bar .icon-room:after{
+  content: '' !Important; /* Do not remove */
+  display: block !Important;
+  width: 30px !Important;
+  height: 30px !Important;
+  position: absolute !important;
+  top: 0px !important;
+  left: 0px !Important;
+}
+  /* Rounding of XP bar */
+#footer .bar,
+#footer .bar .progress{
+  border-radius: 2px !Important;
+}
+#footer .bar .progress{
+  min-width: 2px !Important;
+}
+#the-user-profile .bar,
+#the-user-profile .bar .progress{
+  border-radius: 4px !Important;
+}
+#the-user-profile .bar .progress{
+  min-width: 4px !Important;
+}
+  /* Vote background shadow */
+#vote:before{
+  content: '' !Important;
+  border-radius: 4px !Important;
+  width: 254px !Important;
+  height: 61px !Important;
+  position: absolute !Important;
+  top: 0px !Important;
+  left: 0px !important;
+}
+    /* Z-position */
+#volume span,
+#now-playing-time{
+  z-index: 11 !Important;
+}
+#volume .button{
+  z-index: 12 !important;
+}
+#p3-settings-custom-colors{
+  z-index: 1499 !important;
+}
+    /* Text */
+#room-bar > #room-name{
+  margin-top: 6px !Important;
+}
+
+#room-bar > #room-host{
+  margin-top: -16px !Important;
+}
+#now-playing-time{
+  margin-top: -2px !important;
+  margin-right: 117px !important;
+}   /* Volume */
+#volume{
+  margin-top: -26px !Important;
+  margin-right: 54px !important;
+}
+      /* Button */
+#volume .button{
+  height: 55px !Important;
+  width: 54px !Important;
+  right: -64px !Important;
+  top: -1px !Important;
+}         /* Icon position */
+#volume i{
+  top: 12px !Important;
+  left: 9px !Important;
+}
+      /* Slider */
+#volume .slider{
+  top: 26px !Important;
+  right: -4px !Important;
+}
+    /* Footer */
+#your-next-media span,
+#your-next-media .song{
+  top: 8px !Important;
+}
+#your-active-playlist span{
+  top: 30px !Important;
+  left: 1px !Important;
+}
+    /* User info */
+#footer-user .info{
+  margin-top: 1px !important;
+}
+    /* Footer text */
+#your-next-media{
+  left: 0px !Important;
+}   /* Waitlist positions */
+#waitlist .user:nth-child(-n+9) .meta{
+  left: 27px !Important;
+}
+#waitlist .list.manager .user:nth-child(-n+9) .meta{
+  left: 52px !Important;
+}
+  /* History panel text */
+#history-panel .name,
+#history-panel .timestamp,
+    /* User history */
+#user-history .name,
+#user-history .timestamp{
+  text-align: right !important;
+	top: 24px !Important;
+}
+#history-panel .timestamp {
+  right: 2px !important;
+}   /* Song name? */
+#history-panel .author,
+#user-history .author{
+  width: calc(100% - 300px) !important;
+}
+#history-panel .name,
+#user-history .name {
+  right: 145px !important;
+}   /* Community name */
+#user-history .name{
+  width: 110px !Important;
+}
+  /* Notifications */
+#toast-notifications .right{
+  margin-top: -1px !Important;
+  padding-top: 1px !Important;
+}
+
+/* Disappear */
+#footer .store:hover{
+  background-image: none !important;
+}
+#dialog-container > :not(#dialog-purchase) .divider,
+.app-header .dark-label,
+#now-playing-bar > :not(#history-button):not(#volume) i,
+#now-playing-time .icon.icon-time,
+.chevron,
+#your-next-media .eta,
+#media-panel .row:hover .duration,
+#history-panel .row:hover .timestamp{
+  display: none !Important;
+}

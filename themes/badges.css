@@ -1,0 +1,359 @@
+/* DO NOT EDIT: After-play notifications */
+#toast-notifications .left .icon.icon-vote-woot-selected{
+  background-image: url(https://themescript.github.io/images/cmix_icons.png) !important;
+  background-size: 270px 480px !Important;
+  background-position: -240px -210px !Important;
+}
+
+.badge-box {
+    background: transparent;
+}
+
+/* Badge separator */
+/* > Do not edit past this line unless necessary */
+/*#chat-messages .message:before,
+#chat-messages .emote:before{
+  content: '' !important;
+  position: absolute !important;
+  background-color: rgba(207, 207, 207, 0.34) !Important;
+  width: 1px !important;
+  height: 30px !Important;
+  top: 8px !Important;
+  left: 42px !important;
+}
+
+/* Custom Badges
+   > To add custom badges, copy the following template,
+     fill out what is required and add it to the bottom
+     of the file. Please don't change users badges without
+     their permission and refrain from adding badges that
+     may appear inappropriate.
+
+   > TEMPLATE: */
+   
+/* USERNAME */
+#extplut-user-profiles.id-0 .bdg,
+#chat-messages [data-cid^="0"] .bdg,
+#user-rollover.id-0 .bdg{
+  background-image: url(pfx.domain.sfx/img.sfx) !important;}
+  
+/* User ID can be obtained in one of four ways;
+   > Without addons: Inspect a user's message
+   ? Without addons: Inspect a waitlist entry
+   > plugCubed: "/whois $user"
+   > RCS: In a user's roll-over panel */
+
+/* Border radius
+   > Some users may need this adjusted to fit all of their
+     badge in, or as part of their design. Keep things tidy
+     and set those preferences under here */
+
+#extplug-user-profiles.id-4404282 .bdg,
+#chat-messages [data-cid^="4404282"] .badge-box,
+#user-rollover.id-4404282 .bdg
+#extplug-user-profiles.id-3775042 .bdg,
+#chat-messages [data-cid^="3775042"] .badge-box,
+#user-rollover.id-3775042 .bdg{
+  border-radius: 0px !Important;
+}
+
+/* No badge */
+.badge-box.no-badge{
+  background-position: -120px -90px !Important;}
+
+/* Community, bot */
+#room-bar .icon-room:before,
+#extplug-user-profiles.id-3605383 .bdg,
+#chat-messages [data-cid^="3605383"] .bdg,
+#user-rollover.id-3605383 .bdg{
+  background-position: -30px -90px !Important;}
+
+/* Host: Nighthawk */
+#room-bar .icon-room:after,
+#extplug-user-profiles.id-3818522 .bdg,
+#chat-messages [data-cid^="3818522"] .bdg,
+#user-rollover.id-3818522 .bdg{
+  background-image: url(http://i.imgur.com/Q7K1HZX.png) !important;}
+  
+/* Style developer: HEEBEEJEEBEES */
+#extplug-user-profiles.id-4404282 .bdg,
+#chat-messages [data-cid^="4404282"] .bdg,
+#user-rollover.id-4404282 .bdg{
+  background-image: url(http://i.imgur.com/VwUmpGs.gif) !Important;}
+
+/* Style director: Wizzikz */
+#extplug-user-profiles.id-3573261 .bdg,
+#chat-messages [data-cid^="3573261"] .bdg,
+#user-rollover.id-3573261 .bdg{
+  background-image: url(http://i.imgur.com/250XnQN.png) !important;}
+
+/* Wobble */
+#extplug-user-profiles.id-5052240 .bdg,
+#chat-messages [data-cid^="5052240"] .bdg,
+#user-rollover.id-5052240 .bdg{
+  background-image: url(http://i.imgur.com/JnxK79f.png) !important;}
+
+/* RyoGTO */
+#extplug-user-profiles.id-5533920 .bdg,
+#chat-messages [data-cid^="5533920"] .bdg,
+#user-rollover.id-5533920 .bdg{
+  background-image: url(http://i.imgur.com/xAM3NjO.jpg) !important;}
+
+/* HecticLad */
+#extplug-user-profiles.id-4500966 .bdg,
+#chat-messages [data-cid^="4500966"] .bdg,
+#user-rollover.id-4500966 .bdg{
+  background-image: url(http://i.imgur.com/ZkdaTtg.png);}
+
+/* Fellers */
+#extplug-user-profiles.id-3605741 .bdg,
+#chat-messages [data-cid^="3605741"] .bdg,
+#user-rollover.id-3605741 .bdg{
+  background-image: url(http://i.imgur.com/JnxK79f.png) !important;}
+
+/* Woots */
+#extplug-user-profiles.id-3475278 .bdg,
+#chat-messages [data-cid^="3475278"] .bdg,
+#user-rollover.id-3475278 .bdg{
+  background-image: url(http://i.imgur.com/ZQKUEcO.gif) !important;}
+
+/* Powedered Toast Man */
+#extplug-user-profiles.id-4103934 .bdg,
+#chat-messages [data-cid^="4103934"] .bdg,
+#user-rollover.id-4103934 .bdg{
+  background-image: url(http://i.imgur.com/8lTuDQC.jpg) !important;}
+
+/* Lushbear */
+#extplug-user-profiles.id-5021393 .bdg,
+#chat-messages [data-cid^="5021393"] .bdg,
+#user-rollover.id-5021393 .bdg{
+  background-image: url(http://i.imgur.com/btv65Gh.png) !important;}
+
+/* derelict */
+#extplug-user-profiles.id-3869450 .bdg,
+#chat-messages [data-cid^="3869450"] .bdg,
+#user-rollover.id-3869450 .bdg{
+  background-image: url(http://i.imgur.com/d55KwPP.png) !important;}
+
+/* MrDaft */
+#extplug-user-profiles.id-6148494 .bdg,
+#chat-messages [data-cid^="6148494"] .bdg,
+#user-rollover.id-6148494 .bdg{
+  background-image: url(http://i.imgur.com/eIXxyop.png) !important;}
+
+/* T-Roy */
+#extplug-user-profiles.id-3748769 .bdg,
+#chat-messages [data-cid^="3748769"] .bdg,
+#user-rollover.id-3748769 .bdg{
+  /* background-image: url(http://i.imgur.com/wPhqWUw.png) !important; */
+  background-image: url(http://i.imgur.com/xWVLFBL.png) !important;}
+
+/* leafweed */
+#extplug-user-profiles.id-4178820 .bdg,
+#chat-messages [data-cid^="4178820"] .bdg,
+#user-rollover.id-4178820 .bdg{
+  background-image: url(http://i.imgur.com/lcO6Wge.gif) !important;}
+
+/* atomjack */
+#extplug-user-profiles.id-3724170 .bdg,
+#chat-messages [data-cid^="3724170"] .bdg,
+#user-rollover.id-3724170 .bdg{
+  background-image: url(http://i.imgur.com/XkFZ24y.gif) !important;}
+
+/* DankCookie */
+#extplug-user-profiles.id-5502961 .bdg,
+#chat-messages [data-cid^="5502961"] .bdg,
+#user-rollover.id-5502961 .bdg{
+  background-image: url(https://themescript.github.io/badges/dankcookie.jpg) !important;}
+
+/* Synaesthetik */
+#extplug-user-profiles.id-3638662 .bdg,
+#chat-messages [data-cid^="3638662"] .bdg,
+#user-rollover.id-3638662 .bdg{
+  background-image: url(http://i.imgur.com/toer6ya.png) !Important;}
+
+/* KHA */
+#extplug-user-profiles.id-6011708 .bdg,
+#chat-messages [data-cid^="6011708"] .bdg,
+#user-rollover.id-6011708 .bdg{
+  background-image: url(http://i.imgur.com/g6SA4E0.png) !Important;}
+
+/* bunnystack */
+#extplug-user-profiles.id-3775042 .bdg,
+#chat-messages [data-cid^="3775042"] .bdg,
+#user-rollover.id-3775042 .bdg{
+  background-image: url(http://i.imgur.com/7oB7SSF.png) !Important;}
+
+/* Phazym */
+#extplug-user-profiles.id-3818329 .bdg,
+#chat-messages [data-cid^="3818329"] .bdg,
+#user-rollover.id-3818329 .bdg{
+  background-image: url(https://themescript.github.io/badges/phazym.png) !important;}
+
+/* Rightclik */
+#extplug-user-profiles.id-3834890 .bdg,
+#chat-messages [data-cid^="3834890"] .bdg,
+#user-rollover.id-3834890 .bdg{
+  /* background-image: url(http://i.imgur.com/SNODayh.png) !important; */
+  /* background-image: url(http://i.imgur.com/FoQw9Rh.png) !important;} *//* OLD */
+  background-image: url(http://i.imgur.com/xFmCuC7.png) !important;}
+
+/* TerminallyChill */
+#extplug-user-profiles.id-3537523 .bdg,
+#chat-messages [data-cid^="3537523"] .bdg,
+#user-rollover.id-3537523 .bdg{
+  background-image: url(http://i.imgur.com/Jk4TVtp.png) !important;}
+
+/* Hoarse- */
+#extplug-user-profiles.id-3988637 .bdg,
+#chat-messages [data-cid^="3988637"] .bdg,
+#user-rollover.id-3988637 .bdg{
+  background-image: url(http://i.imgur.com/1E1VjLp.png) !Important;}
+
+/* FunkyBrewster */
+#extplug-user-profiles.id-4152442 .bdg,
+#chat-messages [data-cid^="4152442"] .bdg,
+#user-rollover.id-4152442 .bdg{
+  background-image: url(http://i.imgur.com/7GRiLHj.png) !important;}
+
+/* Backend: EckerDecker */
+#extplug-user-profiles.id-4386405 .bdg,
+#chat-messages [data-cid^="4386405"] .bdg,
+#user-rollover.id-4386405 .bdg{
+  background-image: url(http://i.imgur.com/Bbbo9fN.png) !important;}
+
+/* Cannabiscuit */
+#extplug-user-profiles.id-3721683 .bdg,
+#chat-messages [data-cid^="3721683"] .bdg,
+#user-rollover.id-3721683 .bdg{
+  background-image: url(http://i.imgur.com/hTKlpGC.png) !Important;}
+
+/* Dionysu5 */
+#extplug-user-profiles.id-3852859 .bdg,
+#chat-messages [data-cid^="3852859"] .bdg,
+#user-rollover.id-3852859 .bdg{
+  background-image: url(http://i.imgur.com/2Nwgqrs.png) !Important;}
+
+/* Paradox VII */
+#extplug-user-profiles.id-3995934 .bdg,
+#chat-messages [data-cid^="3995934"] .bdg,
+#user-rollover.id-3995934 .bdg{
+  background-image: url(http://i.imgur.com/1nb6rbD.gif) !important;}
+
+/* à¹€à¸ªà¸·à¸­à¸™à¸±à¸— */
+#extplug-user-profiles.id-4206657 .bdg,
+#chat-messages [data-cid^="4206657"] .bdg,
+#user-rollover.id-4206657 .bdg{
+  background-image: url(http://i.imgur.com/SZWAMwD.jpg) !important;}
+
+/* AKJAMS */
+#extplug-user-profiles.id-3420990 .bdg,
+#chat-messages [data-cid^="3420990"] .bdg,
+#user-rollover.id-3420990 .bdg{
+  background-image: url(http://i.imgur.com/z5Lcql4.png) !important;}
+
+/* Obzerv */
+#extplug-user-profiles.id-3767595 .bdg,
+#chat-messages [data-cid^="3767595"] .bdg,
+#user-rollover.id-3767595 .bdg{
+  background-image: url(http://i.imgur.com/W1Jchuk.png) !important;}
+
+/* Gingerbread Central */
+#extplug-user-profiles.id-6043201 .bdg,
+#chat-messages [data-cid^="6043201"] .bdg,
+#user-rollover.id-6043201 .bdg{
+  background-image: url(http://i.imgur.com/5ZlvRuB.gif) !Important;
+  background-color: #5d749e !Important;}
+
+/* Pick-a-chu */
+#extplug-user-profiles.id-6630381 .bdg,
+#chat-messages [data-cid^="6630381"] .bdg,
+#user-rollover.id-6630381 .bdg{
+  background-image: url(pickachu.jpg) !important;}
+
+/* Chilly Cookoff icons */
+  /* Kush */
+#extplug-user-profiles.id-4136915 .bdg,
+#chat-messages [data-cid^='4136915'] .bdg,
+#user-rollover.id-4136915 .bdg
+  /* Vector */
+#chat-messages [data-cid^='3852859'] .icon-chat-subscriber,
+#chat-messages .id-3852859 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3852859 .icon-chat-subscriber,
+#chat-messages [data-cid^='4189647'] .icon-chat-subscriber,
+#chat-messages .id-4189647 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4189647 .icon-chat-subscriber,
+#chat-messages [data-cid^='3643570'] .icon-chat-subscriber,
+#chat-messages .id-3643570 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3643570 .icon-chat-subscriber,
+#chat-messages [data-cid^='3710134'] .icon-chat-subscriber,
+#chat-messages .id-3710134 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3710134 .icon-chat-subscriber,
+#chat-messages [data-cid^='4500966'] .icon-chat-subscriber,
+#chat-messages .id-4500966 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4500966 .icon-chat-subscriber,
+#chat-messages [data-cid^='3425119'] .icon-chat-subscriber,
+#chat-messages .id-3425119 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3425119 .icon-chat-subscriber,
+#chat-messages [data-cid^='3621237'] .icon-chat-subscriber,
+#chat-messages .id-3621237 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3621237 .icon-chat-subscriber,
+#chat-messages [data-cid^='3869450'] .icon-chat-subscriber,
+#chat-messages .id-3869450 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3869450 .icon-chat-subscriber,
+#chat-messages [data-cid^='5479999'] .icon-chat-subscriber,
+#chat-messages .id-5479999 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-5479999 .icon-chat-subscriber,
+#chat-messages [data-cid^='3709816'] .icon-chat-subscriber,
+#chat-messages .id-3709816 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3709816 .icon-chat-subscriber,
+#chat-messages [data-cid^='4152442'] .icon-chat-subscriber,
+#chat-messages .id-4152442 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4152442 .icon-chat-subscriber{
+  background-image: url(http://i.imgur.com/jziQ64f.png) !important;
+  background-size: 90px 75px !Important;
+}
+
+  /* Badges */
+    /* fluffynips */
+#extplug-user-profiles.id-4136915 .bdg,
+#chat-#chat-messages [data-cid^='4136915'] .bdg,
+#user-rollover.id-4136915 .bdg{
+  background-position: -30px 0px !Important;}
+  /* Sub icons */
+    /* Vector */
+#chat-messages [data-cid^='3852859'] .icon-chat-subscriber,
+#chat-messages .id-3852859 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3852859 .icon-chat-subscriber,
+#chat-messages [data-cid^='4189647'] .icon-chat-subscriber,
+#chat-messages .id-4189647 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4189647 .icon-chat-subscriber,
+#chat-messages [data-cid^='3643570'] .icon-chat-subscriber,
+#chat-messages .id-3643570 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3643570 .icon-chat-subscriber,
+#chat-messages [data-cid^='3710134'] .icon-chat-subscriber,
+#chat-messages .id-3710134 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3710134 .icon-chat-subscriber,
+#chat-messages [data-cid^='4500966'] .icon-chat-subscriber,
+#chat-messages .id-4500966 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4500966 .icon-chat-subscriber,
+#chat-messages [data-cid^='3425119'] .icon-chat-subscriber,
+#chat-messages .id-3425119 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3425119 .icon-chat-subscriber,
+#chat-messages [data-cid^='3621237'] .icon-chat-subscriber,
+#chat-messages .id-3621237 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3621237 .icon-chat-subscriber,
+#chat-messages [data-cid^='3869450'] .icon-chat-subscriber,
+#chat-messages .id-3869450 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3869450 .icon-chat-subscriber,
+#chat-messages [data-cid^='5479999'] .icon-chat-subscriber,
+#chat-messages .id-5479999 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-5479999 .icon-chat-subscriber,
+#chat-messages [data-cid^='3709816'] .icon-chat-subscriber,
+#chat-messages .id-3709816 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-3709816 .icon-chat-subscriber,
+#chat-messages [data-cid^='4152442'] .icon-chat-subscriber,
+#chat-messages .id-4152442 .icon-chat-subscriber,
+#vote .extplug-vote-list .id-4152442 .icon-chat-subscriber{
+  background-position: -75px -30px !Important;
+}
