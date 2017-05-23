@@ -1,0 +1,36 @@
+{
+    "room": "HighGaming.cz",
+    "author": "Cpn.BlackSheep",
+    "icon": null,
+    "css": null,
+    "rules": {
+        "allowAutorespond": true,
+        "allowAutowoot": true,
+        "allowAutojoin": true,
+        "allowAutograb": true,
+        "allowSmartVote": true,
+        "allowEmotes": true,
+        "allowShowingMehs": true,
+        "forceSmartVote": false
+    },
+    "ccc": {
+        "admin": null,
+        "ambassador": null,
+        "host": null,
+        "cohost": null,
+        "manager": null,
+        "bouncer": null,
+        "rdj": null,
+        "subscriber": null,
+        "silversubscriber": null,
+        "friend": null,
+        "user": null
+    },
+    "images": {
+        "background": "http://i.imgur.com/QKTOctv.jpg",
+        "playback": "http://i.imgur.com/GN9xPeH.png"
+    },
+    "emotes": {
+    	"emote_name": null
+    }
+}
