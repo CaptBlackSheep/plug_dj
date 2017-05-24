@@ -1,6 +1,6 @@
 {
-    "room": "wolvesnevercry",
-    "author": null,
+    "room": "Whoever_steals_ends_up_in_hell",
+    "author": "SATAN666",
     "icon": null,
     "css": null,
     "rules": {
@@ -14,11 +14,11 @@
         "forceSmartVote": false
     },
     "ccc": {
-        "admin": null,
+        "admin": "#00b5e6",
         "ambassador": null,
-        "host": null,
-        "cohost": null,
-        "manager": null,
+        "host": "#00b5e6",
+        "cohost": "#00b5e6",
+        "manager": "#00b5e6",
         "bouncer": null,
         "rdj": null,
         "subscriber": null,
@@ -27,7 +27,7 @@
         "user": null
     },
     "images": {
-        "background": "http://i.imgur.com/qOXMoAi.jpg",
+        "background": "http://i.imgur.com/gaxUxBo.png",
         "playback": "http://i.imgur.com/GN9xPeH.png"
     },
     "emotes": {
